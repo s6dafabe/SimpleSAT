@@ -1,0 +1,25 @@
+#include <vector>
+struct Clause{
+    std::vector<int> literals;
+};
+
+class DPLL{
+    private:
+        std::vector<Clause> clauses;
+        std::vector<std::vector<int>> watchlist;
+        std::vector<int> assignments; 
+
+        void unitPropagation(){
+            for(std::vector<int> watched:watchlist){
+                
+            }
+        }
+
+    public:
+        void runDPLL(){
+            
+
+        }
+
+
+};
